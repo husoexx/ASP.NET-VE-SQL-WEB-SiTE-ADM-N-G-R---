@@ -1,0 +1,46 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(resim/lake-7624330_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.logo{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar ul li a{
+    text-decoration:none;
+    color: #fff;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  color: white;
+  text-align: center;
+}
+.content h1{
+    font-size:65px;
+}
+.content p{
+    margin: 20px auto;
+}
